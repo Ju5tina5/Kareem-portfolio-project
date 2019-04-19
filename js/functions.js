@@ -2,7 +2,7 @@
 
 /* HEADER */
 function stickToTop() {
-    if (window.pageYOffset > sticky) {
+    if (window.pageYOffset > 100 ) {
       header.classList.add("sticky");
     } else {
       header.classList.remove("sticky");
